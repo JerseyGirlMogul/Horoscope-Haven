@@ -1,0 +1,64 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+    position: relative;
+    background-image: url("https://i.postimg.cc/mgyhDsrr/zoltar-166533-1920.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+body {
+    font:  Prata, Verdan, sans-serif;
+    font-size: 1rem;
+    color: white
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  font-family: fantasy;
+  font-size:x-large;
+  text-align: center;
+}
+
+select { 
+  appearance: none; 
+  outline: 0; 
+  background: whitesmoke; 
+  background-image: none; 
+  width: 25%; 
+  height: 100%; 
+  color: black; 
+  cursor: pointer; 
+  border:1px solid black; 
+  border-radius:3px;
+}
+
+  
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
